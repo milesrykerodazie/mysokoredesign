@@ -1,0 +1,108 @@
+.productDescription_tag {
+  display: flex;
+  align-items: center;
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-bottom: 20px;
+}
+.productDescription_tag > h3 {
+  margin-left: 25px;
+}
+.productDescription_container {
+  border-top: 1px solid rgb(184, 182, 182);
+  margin-bottom: 50px;
+}
+.productDescription_attrib {
+  margin-left: 11%;
+  margin-right: 21%;
+  display: flex;
+}
+.productDescription_attrib > img {
+  width: 400px;
+  height: 400px;
+  margin-top: 10px;
+}
+.productDescription_info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+.productDescription_info > h3 {
+  font-size: 17px;
+  font-weight: 650;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.productDescription_info > p {
+  color: grey;
+  font-size: 15px;
+  font-weight: 490;
+  margin-bottom: 30px;
+}
+.productDescription_info > h4 {
+  font-size: 12px;
+  font-weight: 400;
+  color: grey;
+  text-decoration: line-through;
+  margin-bottom: 20px;
+}
+.productDescription_price {
+  display: flex;
+  align-items: center;
+}
+.productDescription_price > h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(56, 55, 55);
+  margin-right: 30px;
+}
+.productDescription_price > span {
+  font-size: 13px;
+  font-weight: 600;
+  background-color: rgb(216, 95, 95);
+  padding: 1px 5px;
+  border-radius: 3px;
+  color: white;
+}
+
+.productDescriptiopn_count {
+  border: 2px solid #02a7ed;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  width: 80px;
+  justify-content: space-between;
+}
+
+.productDescriptiopn_count > span {
+  font-size: 14px;
+  color: rgb(49, 49, 49);
+}
+.productDescriptiopn_count > p {
+  padding: 0px 7px;
+  background-color: #d6ecf7;
+}
+
+.productDescription_button > button {
+  padding: 10px 50px;
+  color: #02a7ed;
+  font-size: 15px;
+  font-weight: 600;
+}
+.productDescription_button {
+  margin-top: 50px;
+}
+
+.productDescription_button1 {
+  background-color: white;
+  border: 2px solid #02a7ed;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.productDescription_button2 {
+  background-color: rgb(245, 215, 151);
+  border: 2px solid rgb(243, 203, 115);
+  border-radius: 5px;
+  margin-right: 10px;
+}

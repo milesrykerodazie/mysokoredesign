@@ -1,0 +1,85 @@
+.headerTop {
+  background-color: rgb(2, 2, 177);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.headerTop > h3 {
+  margin-left: 11%;
+  font-size: 15px;
+  color: rgb(240, 240, 240);
+  font-weight: 400;
+  margin-right: 5px;
+}
+.headerTop > p {
+  color: rgb(240, 240, 240);
+  font-size: 15px;
+  font-weight: 500;
+}
+.headerTop > p > span > .MuiSvgIcon-root {
+  width: 17px;
+  height: 17px;
+  margin-bottom: -3px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  margin-left: 11%;
+  margin-right: 11%;
+}
+.headerLeft {
+  display: flex;
+  justify-content: space-evenly;
+}
+.headerLeft_icon {
+  align-items: center;
+  padding: 5px;
+  margin-right: 10px;
+}
+.headerLeft_icon > img {
+  height: 40px;
+  width: 40px;
+  border: 5px solid rgb(235, 233, 233);
+  border-radius: 50%;
+}
+.headerLeft_description {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.headerLeft_description > p {
+  color: gray;
+  font-size: 14px;
+  font-weight: 500;
+}
+.headerRight {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.headerRight_icon {
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+  padding: 0px 15px;
+  cursor: pointer;
+}
+.active,
+.headerRight_icon:hover {
+  background-color: rgb(234, 244, 250);
+  border-radius: 20px;
+  color: #02a7ed;
+}
+.headerRight_icon > .MuiSvgIcon-root {
+  color: grey;
+  width: 27px;
+  height: 27px;
+}
+.headerRight_icon > p {
+  margin-left: 15px;
+  color: grey;
+  font-weight: 500;
+}

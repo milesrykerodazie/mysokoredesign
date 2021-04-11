@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Electronics",
+    "quantity": "12"
+  },
+  {
+    "id": 2,
+    "title": "Face Masks",
+    "quantity": "3"
+  },
+  {
+    "id": 3,
+    "title": "Fresh Food",
+    "quantity": "8"
+  },
+  {
+    "id": 4,
+    "title": "Grocery",
+    "quantity": "6"
+  },
+  {
+    "id": 5,
+    "title": "Home",
+    "quantity": "24"
+  },
+  {
+    "id": 6,
+    "title": "kids",
+    "quantity": "9"
+  }
+]

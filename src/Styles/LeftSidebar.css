@@ -1,0 +1,43 @@
+.leftSidebar {
+  flex: 0.3;
+  border-right: 2px solid rgb(235, 233, 233);
+}
+.leftSidebar_marginTop {
+  margin-top: 26px;
+}
+.leftSidebar_items {
+  margin-left: 40%;
+}
+
+.leftSidebar_item {
+  display: flex;
+  align-items: center;
+  padding: 7px 5px;
+  cursor: pointer;
+  color: gray;
+}
+.leftSidebar_item:hover {
+  background-color: rgb(231, 238, 250);
+  border-right: 3px solid #02a7ed;
+  color: #02a7ed !important;
+}
+.leftSidebar_item > h4 {
+  margin-right: 7px;
+  font-weight: 500;
+}
+
+.leftSidebar_item > p {
+  font-weight: 500;
+}
+
+.leftSidebar_moreCategories {
+  display: flex;
+  margin-left: 40%;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #02a7ed;
+  cursor: pointer;
+}
+.leftSidebar_moreCategories > p {
+  margin-right: 5px;
+}

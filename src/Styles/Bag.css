@@ -1,0 +1,39 @@
+.bag {
+  border-top: 1px solid lightgray;
+}
+
+.bag_attrib {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bag_attrib > img {
+  width: 200px;
+  height: 200px;
+}
+.bag_attrib > h3 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: rgb(51, 50, 50);
+}
+.bag_attrib > p {
+  font-size: 14px;
+  color: grey;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.bag_attrib > button {
+  padding: 10px 50px;
+  color: #02a7ed;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: rgb(250, 223, 70);
+  border: 2px solid rgb(250, 223, 70);
+  border-radius: 5px;
+  margin-right: 10px;
+}

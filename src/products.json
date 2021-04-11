@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "title": "Kids' 2pk Cloth Face Masks",
+    "image": "https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/4948edc/2147483647/strip/true/crop/7309x4136+0+372/resize/728x412!/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F50%2Fc1%2F8ae5cc14447091c79235c99f0c17%2Fgettyimages-1227215803.jpg",
+    "price": "UGX 185,000",
+    "percentOff": "-20%"
+  },
+  {
+    "id": 2,
+    "title": "Norbury Scandinavian Wood Leg Ottoman",
+    "image": "https://www.ikea.com/mx/en/images/products/flisat-childrens-stool__0727952_pe735964_s5.jpg?f=s",
+    "price": "UGX 118,400",
+    "oldPrice": "UGX 148,000",
+    "percentOff": "-20%",
+    "description": "Solid as a piece,Wooden uphoistered ottoman lens a laid-back appeal to your indoor space.Comes with soft padding for extra comfort and support.Solid wooden and metal frame ensures durable, long-lasting use.Great as a footrest or extra seat when entertaining guests."
+  },
+  {
+    "id": 3,
+    "title": "Baby-Cut Carrots - 1lb - Good & Gather",
+    "image": "https://i.pinimg.com/originals/cd/fa/a7/cdfaa73de1081ae03593823d83ea793b.png",
+    "price": "UGX 4,000"
+  },
+  {
+    "id": 4,
+    "title": "Metal Country Chalet Charm and Wood Bench - Saracina Home",
+    "image": "https://atlas-content-cdn.pixelsquid.com/stock-images/wooden-tv-stand-qvGDVJ6-600.jpg",
+    "price": "UGX 34,000"
+  },
+  {
+    "id": 5,
+    "title": "Alternative Protein Ground - 160z - Good & Gather",
+    "image": "https://i.pinimg.com/originals/ac/be/50/acbe50df821d04e8f7b1d5e14ca99bfa.png",
+    "price": "UGX 8,000"
+  }
+]

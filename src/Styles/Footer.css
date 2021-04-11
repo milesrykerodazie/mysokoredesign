@@ -1,0 +1,50 @@
+.footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer_description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.footer_description > h4 {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(180, 177, 177);
+  margin-bottom: 15px;
+}
+.footer_description > h3 {
+  font-size: 18px;
+  color: rgb(43, 42, 42);
+  margin-bottom: 7px;
+}
+.footer_description > p {
+  text-transform: capitalize;
+  font-size: 13px;
+  font-weight: 500;
+  color: gray;
+  margin-bottom: 30px;
+}
+.footer_chatButton {
+  display: flex;
+  align-items: center;
+  background-color: rgb(82, 197, 82);
+  padding: 3px 10px;
+  border-radius: 3px;
+}
+.footer_chatButton > .MuiSvgIcon-root {
+  color: white;
+  width: 20px;
+  height: 20px;
+}
+.footer_chatButton > h3 {
+  margin-left: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}

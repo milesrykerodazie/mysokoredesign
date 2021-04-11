@@ -1,0 +1,29 @@
+.services {
+  background-color: #1ca2db;
+  width: 100%;
+  height: 160px;
+}
+.services_attributes {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+}
+.services_options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.services_options > .MuiSvgIcon-root {
+  color: yellow;
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+}
+.services_options > p {
+  color: white;
+  font-weight: 400;
+}

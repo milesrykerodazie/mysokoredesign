@@ -1,0 +1,68 @@
+.accountPageDelivered {
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 7px;
+  padding: 20px;
+}
+.accountPageDelivered_header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.accountPageDelivered_header > img {
+  width: 35px;
+  height: 35px;
+  margin-right: 12px;
+  border: 5px solid rgb(235, 233, 233);
+  border-radius: 50%;
+}
+.accountPageDelivered_header > p {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(68, 67, 67);
+}
+.accountPageDelivered_description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.accountPageDelivered_order > h4 {
+  font-size: 12px;
+  margin-right: 90px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.accountPageDelivered_order > p {
+  font-size: 13px;
+  color: gray;
+  font-weight: 600;
+}
+.accountPageDelivered_price > h4 {
+  font-size: 12px;
+  float: right;
+  margin-bottom: 7px;
+  color: rgb(80, 79, 79);
+}
+.accountPageDelivered_price > p {
+  font-size: 12px;
+  color: rgb(172, 169, 169);
+  font-weight: 600;
+}
+
+.accountPageDelivered_label {
+  display: flex;
+  align-items: center;
+}
+.accountPageDelivered_label > h3 {
+  margin-right: 10px;
+  font-size: 3px;
+  border: 1px solid blue;
+  padding: 1.5px 3px;
+  border-radius: 50%;
+  background-color: blue;
+}
+.accountPageDelivered_label > p {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: -3px;
+}

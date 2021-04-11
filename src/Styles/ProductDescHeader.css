@@ -1,0 +1,98 @@
+.productDescHeaderTop {
+  background-color: rgb(2, 2, 177);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.productDescHeaderTop > h3 {
+  margin-left: 11%;
+  font-size: 15px;
+  color: rgb(240, 240, 240);
+  font-weight: 400;
+  margin-right: 5px;
+}
+.productDescHeaderTop > p {
+  color: rgb(240, 240, 240);
+  font-size: 15px;
+  font-weight: 500;
+}
+.productDescHeaderTop > p > span > .MuiSvgIcon-root {
+  width: 17px;
+  height: 17px;
+  margin-bottom: -3px;
+}
+
+.productDescHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: 11%;
+  margin-right: 11%;
+}
+.productDescHeaderLeft {
+  display: flex;
+  justify-content: space-evenly;
+}
+.productDescHeaderLeft_icon {
+  align-items: center;
+  padding: 5px;
+  margin-right: 10px;
+}
+.productDescHeaderLeft_icon > img {
+  height: 40px;
+  width: 40px;
+  border: 5px solid rgb(235, 233, 233);
+  border-radius: 50%;
+}
+.productDescHeaderLeft_description {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 5px;
+}
+.productDescHeaderLeft_description > p {
+  color: gray;
+  font-size: 14px;
+  font-weight: 500;
+}
+.productDescHeaderRight {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.productDescHeaderRight_icon {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  padding: 2px 15px;
+}
+
+.productDescHeaderRight_bagIcon {
+  margin-right: 10px;
+}
+.productDescHeaderRight_bagIcon > .MuiSvgIcon-root {
+  position: relative;
+  color: grey;
+  width: 27px;
+  height: 27px;
+}
+.productDescHeaderRight_bagIcon > span {
+  position: absolute;
+  margin-left: 0px;
+  margin-top: -5px;
+  font-size: 12px;
+  background-color: rgb(224, 79, 79);
+  color: white;
+  padding: 0px 5px;
+  border-radius: 30px;
+}
+.productDescHeaderRight_icon > .MuiSvgIcon-root {
+  color: gray;
+}
+.productDescHeaderRight_icon > p {
+  margin-left: 10px;
+  color: grey;
+  font-weight: 500;
+}

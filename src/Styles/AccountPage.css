@@ -1,0 +1,33 @@
+.accountPage_subHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-top: -15px;
+}
+.accountPage_subHeader > h2 {
+  font-size: 21px;
+  color: rgb(63, 63, 63);
+}
+.accountPage_subHeader > button {
+  padding: 6px 23px;
+  font-size: 15px;
+  font-weight: 600;
+  border-color: rgb(202, 200, 200);
+  border-radius: 6px;
+}
+.accountPage_container {
+  border-top: 1px solid lightgray;
+  margin-top: 15px;
+}
+.accountPage_attribContainer {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 11%;
+  margin-right: 11%;
+  height: 600px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  display: flex;
+}

@@ -1,0 +1,27 @@
+.accountLeftSide {
+  border-right: 1px solid lightgray;
+  flex: 0.25;
+}
+.accountLeftSide_attrib {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 10px 5px;
+  color: gray;
+  margin-left: 15px;
+}
+.accountLeftSide_attrib > h4 {
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.accountLeftSide_orderIcon {
+  margin-top: 30px;
+}
+.accountLeftSide_attrib:hover {
+  background-color: rgb(231, 238, 250);
+  border-right: 3px solid #02a7ed;
+  color: #02a7ed !important;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}

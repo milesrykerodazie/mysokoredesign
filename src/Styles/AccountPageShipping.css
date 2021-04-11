@@ -1,0 +1,66 @@
+.accountPageShipping {
+  border: 1px solid rgb(168, 170, 170);
+  border-radius: 7px;
+  padding: 20px;
+}
+.accountPageShipping_header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.accountPageShipping_header > img {
+  width: 35px;
+  height: 35px;
+  margin-right: 12px;
+}
+.accountPageShipping_header > p {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(68, 67, 67);
+}
+.accountPageShipping_description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.accountPageShipping_order > h4 {
+  font-size: 12px;
+  margin-right: 90px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.accountPageShipping_order > p {
+  font-size: 13px;
+  color: gray;
+  font-weight: 600;
+}
+.accountPageShipping_price > h4 {
+  font-size: 12px;
+  float: right;
+  margin-bottom: 7px;
+  color: rgb(80, 79, 79);
+}
+.accountPageShipping_price > p {
+  font-size: 12px;
+  color: rgb(172, 169, 169);
+  font-weight: 600;
+}
+.accountPageShipping_label {
+  display: flex;
+  align-items: center;
+  color: orange;
+}
+.accountPageShipping_label > h3 {
+  margin-right: 10px;
+  font-size: 3px;
+  border: 1px solid rgb(216, 142, 3);
+  padding: 1.5px 3px;
+  border-radius: 50%;
+  background-color: orange;
+}
+.accountPageShipping_label > p {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: -3px;
+}
