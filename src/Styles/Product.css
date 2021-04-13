@@ -1,4 +1,5 @@
 .product {
+  width: 100%;
 }
 .product_container {
   display: flex;
@@ -56,4 +57,17 @@
   padding: 3px 15px;
   border-radius: 5px;
   background-color: white;
+}
+
+/* Responsive styling using media query*/
+@media (max-width: 600px) {
+  .product_image {
+    margin-right: -5px;
+  }
+  .product_attrib > h3 {
+    font-size: 13px;
+  }
+  .product_add {
+    margin-right: 40px;
+  }
 }

@@ -83,3 +83,65 @@
   color: grey;
   font-weight: 500;
 }
+
+/* Responsive styling using media query*/
+@media (max-width: 600px) {
+  .headerTop {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  .headerTop > h3 {
+    margin-left: 5px;
+    font-size: 13px;
+    margin-right: 3px;
+  }
+  .headerTop > p {
+    font-size: 13px;
+  }
+  .headerTop > p > span > .MuiSvgIcon-root {
+    width: 14px;
+    height: 14px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 10px;
+  }
+  .headerLeft_icon > img {
+    height: 20px;
+    width: 20px;
+    border: 3px solid rgb(235, 233, 233);
+  }
+  .headerLeft_description > h3 {
+    margin-left: -7px;
+    font-size: 15px;
+  }
+  .headerLeft_description > p {
+    font-size: 12px;
+    margin-left: -7px;
+  }
+  .headerRight {
+    display: flex;
+    align-items: center;
+  }
+  .headerRight_icon {
+    display: flex;
+    margin-left: 3px;
+    align-items: center;
+    padding: 0px 5px;
+  }
+  .headerRight_icon > .MuiSvgIcon-root {
+    color: grey;
+    width: 18px;
+    height: 18px;
+  }
+  .headerRight_icon > p {
+    margin-left: 5px;
+    color: grey;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}

@@ -2,3 +2,12 @@
   border-top: 1px solid lightgrey;
   display: flex;
 }
+/* Responsive styling using media query*/
+@media (max-width: 600px) {
+  .body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}

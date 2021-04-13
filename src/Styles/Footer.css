@@ -48,3 +48,31 @@
   font-size: 15px;
   font-weight: 400;
 }
+
+/* Responsive styling using media query*/
+@media (max-width: 600px) {
+  .footer {
+    height: 150px;
+  }
+  .footer_description {
+    margin-top: 10px;
+  }
+  .footer_description > h4 {
+    margin-bottom: 10px;
+  }
+  .footer_description > h3 {
+    font-size: 15px;
+  }
+  .footer_description > p {
+    margin-bottom: 15px;
+    font-size: 12px;
+  }
+  .footer_chatButton > .MuiSvgIcon-root {
+    width: 15px;
+    height: 15px;
+  }
+  .footer_chatButton > h3 {
+    font-size: 13px;
+    margin-left: 5px;
+  }
+}

@@ -27,3 +27,24 @@
   color: white;
   font-weight: 400;
 }
+
+@media (max-width: 600px) {
+  .services {
+    width: 100vw;
+    height: 100px;
+  }
+  .services_attributes {
+    width: 70%;
+  }
+  .services_options {
+    margin-top: 15px;
+  }
+  .services_options > .MuiSvgIcon-root {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 5px;
+  }
+  .services_options > p {
+    font-size: 13px;
+  }
+}
