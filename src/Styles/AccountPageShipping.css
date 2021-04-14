@@ -64,3 +64,22 @@
   font-weight: 600;
   margin-top: -3px;
 }
+
+/* Responsive styling using media query*/
+@media (max-width: 850px) {
+  .accountPageShipping {
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  .accountPageShipping_header > img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .accountPageShipping_description {
+    margin-bottom: 20px;
+  }
+  .accountPageShipping_order {
+    margin-right: 150px;
+  }
+}

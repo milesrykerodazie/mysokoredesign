@@ -20,7 +20,6 @@ function ProductDescription() {
       <div className="productDescription_container">
         <div className="productDescription_attrib">
           <img src={Data[1].image} alt={Data[1].title} />
-
           <div className="productDescription_info">
             <h3>{Data[1].title}</h3>
             <p>{Data[1].description}</p>

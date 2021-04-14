@@ -1,3 +1,6 @@
+.accountPage {
+  width: 100%;
+}
 .accountPage_subHeader {
   display: flex;
   align-items: center;
@@ -30,4 +33,32 @@
   border: 1px solid lightgray;
   border-radius: 10px;
   display: flex;
+}
+
+/* Responsive styling using media query*/
+@media (max-width: 850px) {
+  .accountPage_subHeader {
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: -5px;
+    align-items: center;
+  }
+  .accountPage_subHeader > h2 {
+    font-size: 15px;
+  }
+  .accountPage_subHeader > button {
+    font-size: 12px;
+    padding: 2px 7px;
+    border-radius: 3px;
+  }
+  .accountPage_container {
+    margin-top: 10px;
+  }
+  .accountPage_attribContainer {
+    margin-top: 20px;
+    margin-left: 7px;
+    margin-right: 7px;
+    display: flex;
+    flex-direction: column;
+  }
 }

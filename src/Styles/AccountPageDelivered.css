@@ -66,3 +66,22 @@
   font-weight: 600;
   margin-top: -3px;
 }
+
+/* Responsive styling using media query*/
+@media (max-width: 850px) {
+  .accountPageDelivered {
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  .accountPageDelivered_header > img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .accountPageDelivered_description {
+    margin-bottom: 20px;
+  }
+  .accountPageDelivered_order {
+    margin-right: 150px;
+  }
+}

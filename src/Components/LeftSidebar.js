@@ -6,7 +6,14 @@ import Data from "../category.json";
 function LeftSidebar() {
   return (
     <div className="leftSidebar">
+      <div className="leftSidebar_toggle">
+        <span>Categories</span>
+        <input type="checkbox" className="leftSidebar_checkBox" id="toggle" />
+        <label for="toggle">&#9776;</label>
+      </div>
+
       <div className="leftSidebar_marginTop"></div>
+
       {Data.map((category) => {
         return (
           <div key={category.id} className="leftSidebar_items">
@@ -17,6 +24,7 @@ function LeftSidebar() {
           </div>
         );
       })}
+
       <div className="leftSidebar_moreCategories">
         <p>View all categories</p>
         <NavigateNextIcon />

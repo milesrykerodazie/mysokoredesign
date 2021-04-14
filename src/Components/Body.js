@@ -7,7 +7,7 @@ import RightSidebar from "./RightSidebar";
 function Body() {
   return (
     <div className="body">
-      {/* <LeftSidebar /> */}
+      <LeftSidebar />
       <Products />
       <RightSidebar />
     </div>

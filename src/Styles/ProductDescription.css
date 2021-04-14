@@ -11,6 +11,8 @@
 .productDescription_container {
   border-top: 1px solid rgb(184, 182, 182);
   margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .productDescription_attrib {
   margin-left: 11%;
@@ -105,4 +107,74 @@
   border: 2px solid rgb(243, 203, 115);
   border-radius: 5px;
   margin-right: 10px;
+}
+
+/* Responsive styling using media query*/
+@media (max-width: 850px) {
+  .productDescription_tag {
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 10px;
+  }
+  .productDescription_tag > h3 {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  .productDescription_tag > .MuiSvgIcon-root {
+    width: 20px;
+    height: 20px;
+  }
+  .productDescription_attrib {
+    margin-left: 7px;
+    margin-right: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .productDescription_attrib > img {
+    width: 200px;
+    height: 200px;
+  }
+  .productDescription_info {
+    width: 100%;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 30px;
+  }
+  .productDescription_info > h3 {
+    font-size: 15px;
+  }
+  .productDescription_info > p {
+    font-size: 13px;
+    margin-bottom: 15px;
+  }
+  .productDescription_price > h2 {
+    font-size: 15px;
+    margin-right: 20px;
+  }
+  .productDescription_price > span {
+    font-size: 12px;
+  }
+  .productDescriptiopn_count > span {
+    font-size: 12px;
+  }
+  .productDescriptiopn_count > p {
+    padding: 0px 10px;
+  }
+  .productDescription_button {
+    width: 100%;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+  .productDescription_button > button {
+    margin-left: 7px;
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+  .productDescription_button1,
+  .productDescription_button2 {
+    margin-right: 5px;
+  }
 }

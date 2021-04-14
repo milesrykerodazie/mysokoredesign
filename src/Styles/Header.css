@@ -85,7 +85,7 @@
 }
 
 /* Responsive styling using media query*/
-@media (max-width: 600px) {
+@media (max-width: 850px) {
   .headerTop {
     width: 100%;
     padding: 5px;

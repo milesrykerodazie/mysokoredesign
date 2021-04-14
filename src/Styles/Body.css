@@ -3,7 +3,7 @@
   display: flex;
 }
 /* Responsive styling using media query*/
-@media (max-width: 600px) {
+@media (max-width: 850px) {
   .body {
     width: 100%;
     display: flex;

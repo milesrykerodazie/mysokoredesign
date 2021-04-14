@@ -37,3 +37,28 @@
   border-radius: 5px;
   margin-right: 10px;
 }
+
+/* Responsive styling using media query*/
+@media (max-width: 850px) {
+  .bag_attrib {
+    width: 80%;
+    height: 80%;
+    margin-top: 80px;
+  }
+  .bag_attrib > img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  .bag_attrib > h3 {
+    font-size: 15px;
+  }
+  .bag_attrib > p {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  .bag_attrib > button {
+    padding: 5px 20px;
+    font-size: 13px;
+  }
+}

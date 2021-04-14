@@ -60,7 +60,7 @@
 }
 
 /* Responsive styling using media query*/
-@media (max-width: 600px) {
+@media (max-width: 850px) {
   .product_image {
     margin-right: -5px;
   }

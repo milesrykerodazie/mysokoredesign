@@ -47,3 +47,38 @@
   justify-content: space-between;
   margin-top: 25px;
 }
+
+/* Responsive styling using media query*/
+@media (max-width: 850px) {
+  .accountLeftSide {
+    width: 100%;
+  }
+  .accountRightSide_container {
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+  .accountRightSide_header {
+    margin-top: 10px;
+  }
+  .accountRightSide_header > h3 {
+    padding: 5px 3px;
+    font-size: 15px;
+  }
+  .accountRightSide_headerRight {
+    padding: 3px 5px;
+    border-radius: 3px;
+  }
+  .accountRightSide_headerRight > p {
+    margin-left: 5px;
+    font-size: 13px;
+  }
+  .accountRightSide_headerRight > .MuiSvgIcon-root {
+    width: 12px;
+    height: 12px;
+  }
+  .accountRightSide_body {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+}

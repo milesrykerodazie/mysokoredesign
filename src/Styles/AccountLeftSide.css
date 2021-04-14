@@ -25,3 +25,26 @@
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+
+/* Responsive styling using media query*/
+@media (max-width: 850px) {
+  .accountLeftSide {
+    flex: none;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+  }
+  .accountLeftSide_attrib {
+    margin-left: 1px;
+    padding: 7px 0px;
+  }
+  .accountLeftSide_attrib > h4 {
+    font-size: 14px;
+  }
+  .accountLeftSide_orderIcon {
+    margin-top: 10px;
+  }
+  .accountLeftSide_attrib:hover {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+}
