@@ -60,5 +60,6 @@
     margin-right: 7px;
     display: flex;
     flex-direction: column;
+    border: none;
   }
 }

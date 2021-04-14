@@ -80,15 +80,14 @@
 @media (max-width: 850px) {
   .products {
     flex: none;
+    margin-left: 7px;
+    margin-right: 7px;
   }
 
   .products_search {
     margin-top: 10px;
-    width: 100%;
   }
-  .products_search > input {
-    outline: none;
-  }
+
   .products_header {
     margin-top: 8px;
     margin-bottom: 10px;

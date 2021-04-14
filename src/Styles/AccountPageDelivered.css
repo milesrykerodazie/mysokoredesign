@@ -72,16 +72,17 @@
   .accountPageDelivered {
     padding: 5px;
     margin-bottom: 20px;
+    width: auto;
   }
   .accountPageDelivered_header > img {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     margin-right: 10px;
   }
   .accountPageDelivered_description {
     margin-bottom: 20px;
   }
   .accountPageDelivered_order {
-    margin-right: 150px;
+    margin-right: 0px;
   }
 }

@@ -70,6 +70,7 @@
   .accountPageShipping {
     padding: 5px;
     margin-bottom: 20px;
+    width: auto;
   }
   .accountPageShipping_header > img {
     width: 30px;
@@ -80,6 +81,6 @@
     margin-bottom: 20px;
   }
   .accountPageShipping_order {
-    margin-right: 150px;
+    margin-right: 0px;
   }
 }
